@@ -111,14 +111,14 @@
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.ant.AntConfiguration">
-      <value n="makeTarget" v="all"/>
+      <value n="makeTarget" v="clean"/>
       <url n="projectBuildfile" path="build.xml"/>
       <list n="targetList">
-         <string v="all"/>
          <string v="clean"/>
          <string v="compile"/>
          <string v="copy"/>
          <string v="deploy"/>
+         <string v="build"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
@@ -1367,5 +1367,15 @@
             <value n="version" v="1.2"/>
          </hash>
       </list>
+   </hash>
+   <hash n="oracle.toplink.workbench.addin">
+      <hash n="toplinkContentSet">
+         <list n="pattern-filters">
+            <string v="+**"/>
+         </list>
+         <list n="url-path">
+            <url path="toplink/"/>
+         </list>
+      </hash>
    </hash>
 </jpr:project>
